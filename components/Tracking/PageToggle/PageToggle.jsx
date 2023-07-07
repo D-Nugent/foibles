@@ -10,7 +10,6 @@ const PageToggle = () => {
 
     const handlePageToggle = (page) => {
         setCurrentPage(page);
-        console.log(barWidth);
         Animated.timing(barPos, {
             toValue:  page==='Tracking'? 4 : page==='Podium' ? (barWidth+8)*1 : (barWidth+8)*2,
             duration: 250,
