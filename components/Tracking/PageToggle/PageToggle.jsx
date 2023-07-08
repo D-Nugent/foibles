@@ -3,8 +3,7 @@ import React, { useRef, useState } from 'react'
 import { defaultStyles } from '../../../utils/defaultStyles'
 
 
-const PageToggle = () => {
-    const [currentPage,setCurrentPage] = useState('Tracking');
+const PageToggle = ({currentPage, setCurrentPage}) => {
     const barPos = useRef(new Animated.Value(1)).current;
     const [barWidth, setBarWidth] = useState(0);
 

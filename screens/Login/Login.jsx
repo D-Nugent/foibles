@@ -21,7 +21,7 @@ const Login = ({navigation}) => {
     <View style={styles.forgottenPasword}>
       <Text>Forgot your password?</Text>
     </View>
-    <FoibleBtn title={'Log in'} action={() => navigation.push('Tracking')}/>
+    <FoibleBtn title={'Log in'} action={() => navigation.push('AppCore')}/>
     <FoibleBtn title={'Log in with Google'} styleType='calm' icon={googleIcon}/>
     <OrDivider/>
     <FoibleBtn title={'Sign up'} styleType='bold'styleOverride={styles.signUp} action={() => navigation.push('SignUp')}/>

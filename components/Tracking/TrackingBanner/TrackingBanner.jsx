@@ -55,10 +55,11 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         width: '100%',
         backgroundColor: '#c2c2c2',
-    },
-    backgroundImage:{
+        overflow: 'hidden'
+      },
+      backgroundImage:{
         flex: 1,
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
     trackingHeader: {
         ...styleMixins.flex(),
